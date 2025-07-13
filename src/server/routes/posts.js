@@ -15,11 +15,11 @@ router.get("/", async (req, res) => {
     }
 
     if (tag) {
-      query.tags = { $in: [tag] }
+      query.tags = { $in: Array.isArray(tag) ? tag : [tag] };
     }
 
     if (category) {
-      query.category = category
+      query.categories = { $in: Array.isArray(category) ? category : [category] };
     }
 
     const posts = await Post.find(query)
@@ -27,6 +27,8 @@ router.get("/", async (req, res) => {
       .sort({ publishedAt: -1 })
       .limit(limit * 1)
       .skip((page - 1) * limit)
+      .populate('categories', 'name slug') // Populate categories
+      .populate('tags', 'name slug'); // Populate tags
 
     const total = await Post.countDocuments(query)
 

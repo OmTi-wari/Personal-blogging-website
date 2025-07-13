@@ -9,6 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  pagesDir: './src/client/app',
   async rewrites() {
     return [
       {

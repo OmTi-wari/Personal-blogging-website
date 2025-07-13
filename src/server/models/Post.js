@@ -24,14 +24,8 @@ const postSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
-    tags: [
-      {
-        type: String,
-        trim: true,
-      },
-    ],
-    category: {
-      type: String,
+    tags: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Tag' }],
+    categories: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Category' }],
       required: true,
     },
     status: {

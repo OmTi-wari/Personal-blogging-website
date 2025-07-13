@@ -143,7 +143,7 @@ The app serves the built React app from the Express server on the configured POR
 
 ## Project Structure
 
-\`\`\`
+
 personal-blog/
 ├── client/                 # React frontend
 │   ├── public/
