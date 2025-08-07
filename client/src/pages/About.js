@@ -7,32 +7,29 @@ const About = () => {
         <div className="about-page">
           <div className="about-header">
             <div className="profile-image">
-              <img src="/placeholder.svg?height=200&width=200" alt="Profile" />
+              <img src="/placeholder-user.jpg" alt="Om Tiwari" />
             </div>
             <div className="profile-info">
-              <h1>Hi, I'm [Your Name]</h1>
-              <p className="tagline">A passionate developer sharing insights on technology, programming, and life.</p>
+              <h1>Om Tiwari – Full Stack Developer | AI/ML Enthusiast | Blockchain Explorer</h1>
+              <p className="tagline">I live in Mumbai, Maharashtra, India</p>
+              <p className="tagline">Bachelor of Engineering (Computer Engineering), Shree L. R. Tiwari College of Engineering, Batch 2023-2027</p>
             </div>
           </div>
 
           <section className="about-section">
             <h2>My Journey</h2>
             <p>
-              Welcome to my personal blog! I'm a software developer with a passion for creating meaningful digital
-              experiences and sharing knowledge with the community. My journey in technology started several years ago,
-              and since then, I've been continuously learning and growing in this ever-evolving field.
+              Welcome to my personal blog! I am a full stack developer and an enthusiast in AI/ML and blockchain. I have completed my 10th (SSC, 2021) from Smt J B Khot High School and 12th (HSC, 2023) from Thakur College of Science and Commerce. Currently, I am pursuing a Bachelor of Engineering in Computer Engineering (2023-2027) at Shree L. R. Tiwari College of Engineering.
             </p>
             <p>
-              Through this blog, I share my experiences, insights, and learnings from various projects, technologies,
-              and challenges I encounter. Whether it's a new framework I'm exploring, a problem I've solved, or thoughts
-              on industry trends, you'll find it all here.
+              My experience includes in-house internships in blockchain, AI/ML, web development, cybersecurity, and cloud computing. I am an open source contributor and freelancer, having delivered 4+ successful projects to clients.
             </p>
           </section>
 
           <section className="about-section">
             <h2>What I Write About</h2>
             <ul className="topics-list">
-              <li>Web Development & Modern Frameworks</li>
+              <li>Web Development, AI/ML, Blockchain, and Cloud Computing</li>
               <li>JavaScript, React, Node.js, and more</li>
               <li>Software Architecture & Best Practices</li>
               <li>Personal Projects & Case Studies</li>
@@ -44,34 +41,38 @@ const About = () => {
           <section className="about-section">
             <h2>Beyond Code</h2>
             <p>
-              When I'm not coding, you can find me exploring new places, reading books, or working on personal projects.
-              I believe in continuous learning and enjoy experimenting with new technologies and ideas.
+              Outside of coding, I enjoy exploring new places, reading, and working on personal projects. I believe in continuous learning and love experimenting with new technologies and ideas.
             </p>
             <p>
-              I'm always open to connecting with fellow developers, discussing interesting projects, or collaborating on
-              meaningful work. Feel free to reach out through the contact information below!
+              I am always open to connecting with fellow developers, discussing interesting projects, or collaborating on meaningful work. Feel free to reach out!
             </p>
           </section>
 
           <section className="about-section">
             <h2>Let's Connect</h2>
             <div className="social-links-large">
-              <a href="mailto:your@email.com" className="social-link">
+              <a href="mailto:omtiwari.git@gmail.com" className="social-link">
                 <Mail size={24} />
                 <span>Email</span>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://x.com/ommtiwariii" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Twitter size={24} />
-                <span>Twitter</span>
+                <span>X (Twitter)</span>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://www.linkedin.com/in/om-tiwari-471333350/" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Linkedin size={24} />
                 <span>LinkedIn</span>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://github.com/OmTi-wari" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Github size={24} />
                 <span>GitHub</span>
               </a>
+              <a href="https://leetcode.com/u/TiwariOm0211/" target="_blank" rel="noopener noreferrer" className="social-link">
+                <span>LeetCode</span>
+              </a>
+              <div className="social-link">
+                <span>📱 +91 98921 38536</span>
+              </div>
             </div>
           </section>
         </div>
